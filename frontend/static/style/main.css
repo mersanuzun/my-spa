@@ -1,0 +1,26 @@
+body {
+    padding: 10px;
+}
+
+nav {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+nav a {
+    position: relative;
+    padding: 0 10px;
+}
+
+nav a:not(:last-child) {
+    padding: 0 10px;
+}
+
+nav a:first-child {
+    padding-left: 0;
+}
+
+nav .separator {
+    border: 1px solid gray;
+}
